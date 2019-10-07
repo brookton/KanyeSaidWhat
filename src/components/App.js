@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './App.css'
-import Card from './components/Card'
+import '../stylesheets/App.css'
+import Kanye from './Kanye'
 
 export class App extends Component {
   state = {
@@ -15,8 +15,8 @@ export class App extends Component {
       }))
   }
 
-  createCard = () => {
-    return <Card quote={this.state.currentQuote} />
+  createKanye = () => {
+    return <Kanye quote={this.state.currentQuote} />
   }
 
   render() {
@@ -25,7 +25,7 @@ export class App extends Component {
         <div className='container'>
           <h1 className='title'>Kanye said what???</h1>
           <button className='get-quote-button' onClick={this.handleClick}>He said...</button>
-          {this.createCard()}
+          {this.createKanye()}
         </div>
       </div>
     );

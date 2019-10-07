@@ -3,17 +3,27 @@
     text-align: center;
     align-items: center;
     align-content: center;
-    /* background-image: url('https://rapdose.com/wp-content/uploads/2016/10/kanye-west.jpg'); */
+    
+}
+
+html {
+    background: url('https://rapdose.com/wp-content/uploads/2016/10/kanye-west.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 
 .container {
-    background-image: url('https://rapdose.com/wp-content/uploads/2016/10/kanye-west.jpg');
-    height: 100vh;
+    background: rgba(117, 105, 82, 0.45);
+    padding-top: 20%;
+    padding-bottom: 60%;
+
 }
 
 .title {
     font-size: 6em;
-    background-color: rgba(255, 255, 255, 0);
     margin-top: 1rem;
 }
 
@@ -27,18 +37,17 @@
 }
 
 .quote-container {
-    background-color: rgba(255, 255, 255, 0);
+
 }
 
 .quote {
     font-size: 2em;
     font-style: italic;
     margin-top: 3.5em;
-    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
 }
 
 .kanye {
     margin-left: 15em;
     font-size: 2em;
-    background-color: rgba(255, 255, 255, 0);
 }
